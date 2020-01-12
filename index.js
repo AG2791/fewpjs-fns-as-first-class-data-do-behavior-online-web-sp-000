@@ -9,7 +9,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 
-function greet(string)
+function greet(time)
  
  {
    string = ${HH}:${MM};
