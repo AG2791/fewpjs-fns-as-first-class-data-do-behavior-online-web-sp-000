@@ -12,6 +12,6 @@ function handleClick(e) {
 function greet(string)
  {
    string = ${HH}:${MM};
- }
+ } 
 
 /* Write your implementation of displayMessage() */
