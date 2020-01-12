@@ -9,11 +9,11 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 
-function greet(timeString)
+function greet(string)
  {
-   timeString = ${HH}:${MM};
+   string = ${HH}:${MM};
    
-   if timeString = 
+   if (string
  } 
 
 /* Write your implementation of displayMessage() */
