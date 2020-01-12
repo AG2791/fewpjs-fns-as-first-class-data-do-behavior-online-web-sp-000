@@ -12,9 +12,12 @@ function handleClick(e) {
 function greet(time)
  
  {
-   string = ${HH}:${MM};
-   
-   if (string
+   let time = parseInt(time, 10);
+   time = ${HH}:${MM};
+  
+  if ( hour < 12) return "Good Morning"
+  if ( hour > 17) return "Good Evening"
+  return "Good Afternoon"
  } 
 
 /* Write your implementation of displayMessage() */
